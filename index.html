@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Age calculator app</title>
+
+
+</head>
+<body>
+  <div class="container">
+    <div class="top">
+      <div class="your-date">
+        <div class="input-container">
+          <h5>Day</h5>
+          <input type="number" placeholder="DD" class="day-button input">
+          <p class="error day hidden opacity">Must be a valid day</p>
+          <p class="error empty hidden opacity">This field is required</p>
+        </div>
+        <div class="input-container">
+          <h5>Month</h5>
+          <input type="number"  placeholder="MM" class=" month-button input">
+          <p class="error month hidden opacity">Must be a valid month</p>
+          <p class="error empty hidden opacity">This field is required</p>
+        </div>
+        <div class="input-container">
+          <h5>Year</h5>
+          <input type="number"  placeholder="YYYY" class="year-button input-container">
+          <p class="error year hidden opacity">Must be in the past</p>
+          <p class="error empty hidden opacity">This field is required</p>
+        </div>
+      </div>
+
+    </div>
+    <div class="mid">
+        <div class="line"></div>
+        <div class="arrow-div">
+          <button class="arrow">
+            <img src="./assets/images/icon-arrow.svg" alt="">
+          </button>
+        </div>
+
+
+    </div>
+      <div class="calculator">
+        <h1><span class="years">- -</span> years</h1>
+        <h1><span class="months">- -</span> months</h1>
+        <h1><span class="days">- -</span> days</h1>
+
+      </div>
+    </div>
+  </div>
+  
+  
+
+  
+  
+
+  
+  
+
+   
+   
+   
+
+
+  <script src="index.js"></script>
+</body>
+</html>
